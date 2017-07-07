@@ -1,0 +1,14 @@
+hr {
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: darkslategrey;
+  border: none;
+  color: white;
+  font-size: 14px;
+  height: 30px;
+  margin-bottom: 1em;
+  outline: none;
+  width: 100%;
+}

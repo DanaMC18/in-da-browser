@@ -1,3 +1,5 @@
+// keeping orientation for future update when all images on a web page 
+// will be replaced with camdawgz 
 let images = [
   {title: "beach", orientation: "landscape"},
   {title: "carmen-san-diego", orientation: "portrait"},
@@ -29,9 +31,9 @@ let images = [
 let displayImage = function() {
   let index = Math.floor(Math.random() * images.length);
   let image = images[index];
-  let src = `images/camdawgz/${image.title}.jpg`;
+  let imgPath = `images/camdawgz/${image.title}.jpg`;
   
-  document.querySelector('body').background = src;
+  document.querySelector('body').background = imgPath;
 }
 
 document.addEventListener('DOMContentLoaded', displayImage);
