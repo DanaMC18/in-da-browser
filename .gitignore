@@ -1,4 +1,4 @@
 # ignore the camdawgz
-images/camdawgz/
-images/weeeee.jpg
+scripts/images.js
 .DS_Store
+node_modules
